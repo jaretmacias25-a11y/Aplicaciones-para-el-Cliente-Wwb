@@ -1,0 +1,30 @@
+body {
+ margin: 0;
+ font-family:Times New Roman;
+ background-color: #ececec;
+ color: #333;
+ line-height: 1.6;
+}
+
+header {
+ background: #5175eb;
+ color: white;
+ text-align: center;
+ padding: 2rem 0;
+}
+
+.contenedor {
+ width: 80%;
+ margin: 150px auto; /* Centrado horizontal */
+ background: white;
+ padding: 30px;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.habilidades {
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+ padding: 0;
+}
