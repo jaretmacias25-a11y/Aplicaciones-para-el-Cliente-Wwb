@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Registro de Estudiantes</h1>
+
+        <form id="formulario">
+
+            <input type="text" id="cedula" placeholder="Cédula">
+            <input type="text" id="apellidos" placeholder="Apellidos">
+            <input type="text" id="nombres" placeholder="Nombres">
+            <input type="text" id="direccion" placeholder="Dirección">
+            <input type="text" id="telefono" placeholder="Teléfono">
+            <input type="email" id="correo" placeholder="Correo Electrónico">
+            <input type="text" id="facultad" placeholder="Facultad">
+            <input type="number" id="nivel" placeholder="Nivel">
+            <input type="text" id="paralelo" placeholder="Paralelo">
+            <button type="submit">Guardar</button>
+
+        </form>
+
+        <h2>Estudiantes Registrados</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Cédula</th>
+                    <th>Nombre</th>
+                    <th>Direccion</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Facultad</th>
+                    <th>Nivel</th>
+                    <th>Paralelo</th>
+
+                </tr>
+            </thead>
+            <tbody id="tablaEstudiantes"></tbody>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

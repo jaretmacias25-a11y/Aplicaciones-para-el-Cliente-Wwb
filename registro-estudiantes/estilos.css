@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #201b1b;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background: rgb(199, 191, 191);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+button{
+    background-color: aqua;
+}
